@@ -2,6 +2,7 @@
 > A scalable backend system for managing clinic patients and appointment scheduling, built with modern API design principles.
 
 📌 Overview
+
 This project is a RESTful API designed to manage healthcare clinic operations, including patient records and appointment scheduling. It demonstrates backend development skills such as API design, database integration, and data persistence.
 
 🎯 Key Features
@@ -12,7 +13,7 @@ This project is a RESTful API designed to manage healthcare clinic operations, i
 ⚡ Fast and efficient API built with FastAPI
 📄 Interactive API documentation via Swagger UI
 
-🛠️ Tech Stack
+## Tech Stack
 Language: Python
 Framework: FastAPI
 Database: SQLite
@@ -28,7 +29,7 @@ Server: Uvicorn
 | POST | `/appointments` | Create appointment |
 | GET | `/appointments` | List appointments |
 
-▶️ Running the Project Locally
+## Running the Project Locally
 1. Clone the repository
 git clone https://github.com/moustapha-ilmi/afrinex-clinic-appointment-api.git
 cd afrinex-clinic-appointment-api
@@ -41,21 +42,24 @@ python3 -m uvicorn app.main:app --reload
 Visit:
 http://127.0.0.1:8000/docs
 
-🧪 Example Request
+## Example Request
 Create Patient
 {
   "name": "Moustapha Ilmi",
   "age": 25,
   "gender": "Male"
 }
-📈 Future Improvements
+
+## Future Improvements
 Add authentication (JWT)
 Validate patient existence before appointment creation
 Add update & delete endpoints
 Implement filtering (by date, department)
 Deploy API to cloud (AWS / Render)
-🌍 About Afrinex AI
+
+## About Afrinex AI
 Afrinex AI focuses on building scalable AI and software solutions to improve healthcare, fintech, and business operations across Africa.
-👤 Author
+
+## Author
 Moustapha Ilmi
 Software Engineer | Data Analyst | Founder @ Afrinex AI
