@@ -1,11 +1,12 @@
 🚀 Afrinex AI – Clinic Appointment API
 > A scalable backend system for managing clinic patients and appointment scheduling, built with modern API design principles.
 
-📌 Overview
+## Overview
 
 This project is a RESTful API designed to manage healthcare clinic operations, including patient records and appointment scheduling. It demonstrates backend development skills such as API design, database integration, and data persistence.
 
-🎯 Key Features
+## Key Features
+
 👤 Patient management (create & retrieve patients)
 📅 Appointment scheduling system
 🔗 Relationship between patients and appointments
