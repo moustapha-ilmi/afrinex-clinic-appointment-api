@@ -29,11 +29,11 @@ Client (Browser / Postman)
 📄 Auto-generated API docs (Swagger UI)
 
 ## Tech Stack
-|Layer	|     |Technology|
-|Backend	|   |Python, FastAPI|
-|ORM|	       |SQLModel|
-|Database|	 |SQLite|
-|Server	|   |Uvicorn|
+Layer	      Technology
+Backend	      Python, FastAPI|
+ORM	      SQLModel
+Database      SQLite
+Server	      Uvicorn|
 
 ## API Endpoints
 | Method | Endpoint | Description |
@@ -58,7 +58,9 @@ Visit:
 http://127.0.0.1:8000/docs
 
 ## Example Request
+
 Create Patient
+
 {
   "name": "Moustapha Ilmi",
   "age": 25,
@@ -66,6 +68,7 @@ Create Patient
 }
 
 Create Appointment
+
 {
   "patient_id": 1,
   "department": "General Medicine",
