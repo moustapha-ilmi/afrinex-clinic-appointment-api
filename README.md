@@ -1,25 +1,39 @@
 🚀 Afrinex AI – Clinic Appointment API
-> A scalable backend system for managing clinic patients and appointment scheduling, built with modern API design principles.
+
+A production-style backend system for managing clinic patients and appointment scheduling, built with scalable API design and database integration.
 
 ## Overview
+This project simulates a real-world healthcare backend system, designed to manage patient records and appointment scheduling efficiently.
+It demonstrates core backend engineering skills:
 
-This project is a RESTful API designed to manage healthcare clinic operations, including patient records and appointment scheduling. It demonstrates backend development skills such as API design, database integration, and data persistence.
+REST API design
+Data modeling & persistence
+System scalability thinking
+Clean and maintainable architecture
+
+🧠 System Architecture
+Client (Browser / Postman)
+        ↓
+ FastAPI (REST API Layer)
+        ↓
+   SQLModel (ORM)
+        ↓
+     SQLite DB
 
 ## Key Features
-
-👤 Patient management (create & retrieve patients)
+👤 Patient management (create & retrieve)
 📅 Appointment scheduling system
-🔗 Relationship between patients and appointments
-💾 Persistent storage using SQLite database
-⚡ Fast and efficient API built with FastAPI
-📄 Interactive API documentation via Swagger UI
+🔗 Patient–Appointment relationship
+💾 Persistent storage with SQLite
+⚡ High-performance API using FastAPI
+📄 Auto-generated API docs (Swagger UI)
 
 ## Tech Stack
-Language: Python
-Framework: FastAPI
-Database: SQLite
-ORM: SQLModel
-Server: Uvicorn
+|Layer	|     |Technology|
+|Backend	|   |Python, FastAPI|
+|ORM|	       |SQLModel|
+|Database|	 |SQLite|
+|Server	|   |Uvicorn|
 
 ## API Endpoints
 | Method | Endpoint | Description |
@@ -51,12 +65,28 @@ Create Patient
   "gender": "Male"
 }
 
+Create Appointment
+{
+  "patient_id": 1,
+  "department": "General Medicine",
+  "appointment_time": "2026-02-01 10:00",
+  "status": "Scheduled"
+}
+
 ## Future Improvements
 Add authentication (JWT)
 Validate patient existence before appointment creation
 Add update & delete endpoints
 Implement filtering (by date, department)
 Deploy API to cloud (AWS / Render)
+
+## What This Project Demonstrates
+
+Designing RESTful APIs
+Working with relational databases
+Managing data persistence
+Structuring backend applications
+Building scalable, real-world systems
 
 ## About Afrinex AI
 Afrinex AI focuses on building scalable AI and software solutions to improve healthcare, fintech, and business operations across Africa.
