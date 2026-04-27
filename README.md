@@ -2,6 +2,14 @@
 
 A production-style backend system for managing clinic patients and appointment scheduling, built with scalable API design and database integration.
 
+## 🌐 Live Demo
+
+🔗 **API Base URL**  
+https://afrinex-clinic-appointment-api.onrender.com  
+
+📄 **Swagger API Docs**  
+https://afrinex-clinic-appointment-api.onrender.com/docs  
+
 ## Overview
 This project simulates a real-world healthcare backend system, designed to manage patient records and appointment scheduling efficiently.
 It demonstrates core backend engineering skills:
